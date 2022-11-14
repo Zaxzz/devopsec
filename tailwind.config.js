@@ -4,8 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'green': '#79E6AE',
-        'grey' : '#D8D7D7'
+        'blue' : "#89B8FF"
     },
     borderRadius: {
       'lg': '40px',

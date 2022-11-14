@@ -1,36 +1,21 @@
-import React from 'react';
-import Button from './components/button';
-import Navbar from './components/navbar';
-import logo from './logo.svg';
-import About from './components/about'
-import Kontak from './components/kontak';
-import Footer from './components/footer';
-import Program from './components/program'
-import Profil from './components/profil';
-import Galeri from './components/galeri';
-import Info from './components/info';
+import Button from "./components/button"
+import Landing from "./components/landing";
+import Hiw from "./components/hiw";
+import Testi from "./components/testi";
+import Package from "./components/package";
+import Allop from "./components/allop";
+import Footer from "./components/footer";
 
 const App = () => {
   return (
-    <div className=' object-cover text-cover'>
-      <Navbar/>
+    <div>
       <Button/>
-      <div className="content bg-fixed bg-white" style={{backgroundImage: `url("https://i.top4top.io/p_2502kji0f1.png")`}}>
-      <Profil/>
-      
-      <Program/>
-    
-      <About/>
-    
-      <Galeri/>
-      
-      <Info/>
-    
-      <Kontak/>
-      
+      <Landing/>
+      <Hiw/>
+      <Testi/>
+      <Package/>
+      <Allop/>
       <Footer/>
-    
-     </div>
     </div>
   );
 }
